@@ -28,10 +28,12 @@ If we want to use IEC Byte Units, just set the second parameter to true:
 Finally, the third parameter lets you specific the number of significant digits. It
 defaults to 0:
 
+```handlebars
 {{number-to-human-size 1024 false 0}} {{!-- prints "1 kB" to the template  --}}
 {{number-to-human-size 1024 false 1}} {{!-- prints "1.0 kB" to the template  --}}
 {{number-to-human-size 1024 false 2}} {{!-- prints "1.02 kB" to the template  --}}
 {{number-to-human-size 1024 false 3}} {{!-- prints "1.024 kB" to the template  --}}
+```
 
 ## Running a Demo App
 
