@@ -1,3 +1,9 @@
 <h2 id="title">Welcome to Ember.js</h2>
 
-{{outlet}}
+1 byte: {{number-to-human-size 1}}<br />
+1000 bytes: {{number-to-human-size 1000}}<br />
+1024 bytes: {{number-to-human-size 1024 false 3}}<br />
+1024 bytes in SI: {{number-to-human-size 1024 true}}<br />
+1000 * 1000 bytes: {{number-to-human-size 1000000}}<br />
+1024 * 1024 bytes: {{number-to-human-size 1048576 false 3}}<br />
+1024 * 1024 bytes in SI: {{number-to-human-size 1048576 true}}<br />
