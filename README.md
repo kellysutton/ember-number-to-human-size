@@ -52,6 +52,8 @@ $ ember test
 
 ## Building
 
-* `ember build`
+```
+$ ember build
+```
 
 For more information on using ember-cli, visit [http://www.ember-cli.com/](http://www.ember-cli.com/).
