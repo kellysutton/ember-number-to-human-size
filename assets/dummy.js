@@ -420,7 +420,7 @@ catch(err) {
 if (runningTests) {
   require("dummy/tests/test-helper");
 } else {
-  require("dummy/app")["default"].create({"name":"ember-number-to-human-size","version":"0.1.0.3998925a"});
+  require("dummy/app")["default"].create({"name":"ember-number-to-human-size","version":"0.1.0.86dedf29"});
 }
 
 /* jshint ignore:end */
