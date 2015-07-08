@@ -4,7 +4,7 @@ module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'dummy',
     environment: environment,
-    baseURL: '/',
+    baseURL: '/ember-number-to-human-size',
     locationType: 'auto',
     EmberENV: {
       FEATURES: {
