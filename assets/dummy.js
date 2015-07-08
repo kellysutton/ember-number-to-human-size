@@ -125,7 +125,7 @@ define('dummy/templates/application', ['exports'], function (exports) {
         var el0 = dom.createDocumentFragment();
         var el1 = dom.createElement("h2");
         dom.setAttribute(el1,"id","title");
-        var el2 = dom.createTextNode("Welcome to Ember.js");
+        var el2 = dom.createTextNode("ember-number-to-human-size demo");
         dom.appendChild(el1, el2);
         dom.appendChild(el0, el1);
         var el1 = dom.createTextNode("\n\n1 byte: ");
@@ -420,7 +420,7 @@ catch(err) {
 if (runningTests) {
   require("dummy/tests/test-helper");
 } else {
-  require("dummy/app")["default"].create({"name":"ember-number-to-human-size","version":"0.1.0.86dedf29"});
+  require("dummy/app")["default"].create({"name":"ember-number-to-human-size","version":"0.1.0.5c1a90dd"});
 }
 
 /* jshint ignore:end */
