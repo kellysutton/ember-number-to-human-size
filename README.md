@@ -1,5 +1,7 @@
 # ember-number-to-human-size
 
+[![Build Status](https://travis-ci.org/kellysutton/ember-number-to-human-size.png?branch=master)](https://travis-ci.org/kellysutton/ember-number-to-human-size)
+
 An Ember template helper inspired by the Rails [number_to_human_size](http://api.rubyonrails.org/classes/ActionView/Helpers/NumberHelper.html) method. It makes displaying file sizes in
 human-readable fashiong easy.
 
