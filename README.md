@@ -1,9 +1,13 @@
 # ember-number-to-human-size
 
 [![Build Status](https://travis-ci.org/kellysutton/ember-number-to-human-size.png?branch=master)](https://travis-ci.org/kellysutton/ember-number-to-human-size)
+[![npm version](https://badge.fury.io/js/ember-number-to-human-size.svg)](http://badge.fury.io/js/ember-number-to-human-size)
+[![Codacy Badge](https://www.codacy.com/project/badge/002dc446553642259867d348e96b6cb6)](https://www.codacy.com/app/hawker-jordan/ember-number-to-human-size)
+[![Code Climate](https://codeclimate.com/github/kellysutton/ember-number-to-human-size/badges/gpa.svg)](https://codeclimate.com/github/kellysutton/ember-number-to-human-size)
+[![Ember Observer Score](http://emberobserver.com/badges/ember-number-to-human-size.svg)](http://emberobserver.com/addons/ember-number-to-human-size)
 
 An Ember template helper inspired by the Rails [number_to_human_size](http://api.rubyonrails.org/classes/ActionView/Helpers/NumberHelper.html) method. It makes displaying file sizes in
-human-readable fashiong easy.
+human-readable fashion easy.
 
 It supports both IEC Byte Units (KiB, MiB, etc.) and traditional byte units (kB, MB, etc.).
 
