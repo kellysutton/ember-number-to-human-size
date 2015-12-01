@@ -1,7 +1,11 @@
-var EmberApp = require('ember-cli/lib/broccoli/ember-addon');
+/*jshint node:true*/
+/* global require, module */
+var EmberAddon = require('ember-cli/lib/broccoli/ember-addon');
 
 module.exports = function(defaults) {
-  var app = new EmberApp(defaults, {});
+  var app = new EmberAddon(defaults, {
+    // Add options here
+  });
 
   /*
     This build file specifes the options for the dummy test app of this
