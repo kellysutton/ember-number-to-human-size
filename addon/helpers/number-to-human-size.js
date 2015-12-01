@@ -1,4 +1,4 @@
-import Ember from 'ember';
+import makeHelper from '../utils/make-helper';
 
 export function numberToHumanSize(params/*, hash*/) {
   let bytes = params[0];
@@ -22,4 +22,4 @@ export function numberToHumanSize(params/*, hash*/) {
   return `${bytes.toFixed(roundAmount)} ${units[u]}`;
 }
 
-export default Ember.HTMLBars.makeBoundHelper(numberToHumanSize);
+export default makeHelper(numberToHumanSize);
